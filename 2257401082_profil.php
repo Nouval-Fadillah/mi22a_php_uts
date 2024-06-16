@@ -9,7 +9,7 @@
 ?>
 
 <form action="" method="POST">
-    <h2>Form Perulangan</h2>
+    <h2>Form Profile</h2>
 
     NIM
     <br>
