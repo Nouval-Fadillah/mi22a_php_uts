@@ -41,13 +41,32 @@
 
 <?php
 
-    if (isset($_POST['simpan'])) {
-        $nim = $_POST['nim'];
-        $nama = $_POST['nama'];
-        $kelas = $_POST['kelas'];
-        $email = $_POST['email'];
-        $hp = $_POST['no'];
-    }
+    if (isset($_POST['simpan'])) 
 
-?>
+:?>
+
+<table border="1">
+    <tr>
+        <td>NIM</td>
+        <td> <?php echo $_POST['nim'] ?></td>
+    </tr>
+    <tr>
+        <td>Nama</td>
+        <td> <?php echo $_POST['nama'] ?></td>
+    </tr>
+    <tr>
+        <td>Kelas</td>
+        <td> <?php echo $_POST['kelas'] ?></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td> <?php echo $_POST['email'] ?></td>
+    </tr>
+    <tr>
+        <td>Nomor Hp</td>
+        <td> <?php echo $_POST['no'] ?></td>
+    </tr>
+</table>
+
+<?php endif; >
 
